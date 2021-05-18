@@ -13,16 +13,16 @@ spring:
     application:
         name: microservicecloud-config-dept-client
     datasource:
-    type: com.alibaba.druid.pool.DruidDataSource           
-    driver-class-name: org.gjt.mm.mysql.Driver              
-    url: jdbc:mysql://8.131.85.141:3306/cloudDB01?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-    username: root
-    password: nimenhaoma
-    dbcp2:
-      min-idle: 5                                           
-      initial-size: 5                                    
-      max-total: 5                                          
-      max-wait-millis: 200 
+        type: com.alibaba.druid.pool.DruidDataSource           
+        driver-class-name: org.gjt.mm.mysql.Driver              
+        url: jdbc:mysql://8.131.85.141:3306/cloudDB01?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+        username: root
+        password: nimenhaoma
+        dbcp2:
+            min-idle: 5                                           
+            initial-size: 5                                    
+            max-total: 5                                          
+            max-wait-millis: 200 
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        
@@ -53,16 +53,16 @@ spring:
     application:
         name: microservicecloud-config-dept-client
     datasource:
-    type: com.alibaba.druid.pool.DruidDataSource           
-    driver-class-name: org.gjt.mm.mysql.Driver              
-    url: jdbc:mysql://8.131.85.141:3306/cloudDB02?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-    username: root
-    password: nimenhaoma
-    dbcp2:
-      min-idle: 5                                           
-      initial-size: 5                                    
-      max-total: 5                                          
-      max-wait-millis: 200 
+        type: com.alibaba.druid.pool.DruidDataSource           
+        driver-class-name: org.gjt.mm.mysql.Driver              
+        url: jdbc:mysql://8.131.85.141:3306/cloudDB02?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+        username: root
+        password: nimenhaoma
+        dbcp2:
+          min-idle: 5                                           
+          initial-size: 5                                    
+          max-total: 5                                          
+          max-wait-millis: 200 
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        
