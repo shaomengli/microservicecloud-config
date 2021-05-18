@@ -1,16 +1,16 @@
 spring:
-    prifiles:
+    profiles:
         action:
             - dev
             
 ---
 spring:
-    prifiles: dev
+    profiles: dev
     application:
         name: microservicecloud-config-atguigu-dev
         
 ---
 spring:
-    prifiles: test
+    profiles: test
     application:
         name: microservicecloud-config-atguigu-test
