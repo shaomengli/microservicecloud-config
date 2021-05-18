@@ -1,0 +1,16 @@
+spring:
+    prifiles:
+        action:
+            - dev
+            
+---
+spring:
+    prifiles: dev
+    application:
+        name: microservicecloud-config-atguigu-dev
+        
+---
+spring:
+    prifiles: test
+    application:
+        name: microservicecloud-config-atguigu-test
